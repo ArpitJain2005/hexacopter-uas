@@ -1,25 +1,4 @@
-"""
-ESC Throttle Range Calibration — Hexacopter UAS
-================================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Automates the ESC calibration process by sending max throttle,
-    then min throttle signals over MAVLink so each ESC learns the
-    full PWM throttle range from the flight controller.
-
-WARNING:
-    - REMOVE ALL PROPELLERS before running this script.
-    - Ensure the vehicle is on a stable bench.
-    - Keep clear of motor shafts during the procedure.
-
-Usage:
-    python esc_calibration.py --connect /dev/ttyUSB0 --baud 57600
-    python esc_calibration.py --connect tcp:127.0.0.1:5760   # SITL
-
-Dependencies:
-    pip install dronekit pymavlink
-"""
 
 import time
 import argparse
