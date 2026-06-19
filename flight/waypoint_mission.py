@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-waypoint_mission.py
--------------------
-Executes a simple autonomous waypoint navigation mission using DroneKit.
-The drone takes off, navigates through a square pattern of waypoints,
-then returns to launch (RTL).
-
-Usage:
-    python waypoint_mission.py --connect tcp:127.0.0.1:5760
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
 
 import argparse
 import time
