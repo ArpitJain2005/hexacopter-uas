@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-preflight_check.py
-------------------
-Automated pre-flight checklist for the CDAC Hexacopter UAS.
-Connects via DroneKit/MAVLink and validates all critical systems
-before any flight operation.
-
-Usage:
-    python preflight_check.py --connect /dev/ttyUSB0          # real hardware
-    python preflight_check.py --connect tcp:127.0.0.1:5760    # SITL simulation
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
 
 import argparse
 import time
