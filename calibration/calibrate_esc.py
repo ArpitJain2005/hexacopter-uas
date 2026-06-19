@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
-"""
-calibrate_esc.py
-----------------
-ESC (Electronic Speed Controller) calibration helper.
-Sends PWM min/max signals via DroneKit to calibrate all 6 ESCs simultaneously.
 
-WARNING: Remove propellers before running this script.
-
-Usage:
-    python calibrate_esc.py --connect /dev/ttyUSB0
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
 
 import argparse
 import time
