@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""
-hover_test.py
--------------
-Autonomous hover test for the CDAC Hexacopter UAS.
-Arms the drone, takes off to a target altitude, holds hover
-for a set duration, then lands, validating stable flight.
-
-Test in SITL before flying real hardware.
-
-Usage:
-    python hover_test.py --connect tcp:127.0.0.1:5760     # SITL
-    python hover_test.py --connect /dev/ttyUSB0 --altitude 1.5  # Hardware
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
-
 import argparse
 import time
 import sys
