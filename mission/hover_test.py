@@ -1,35 +1,4 @@
-"""
-Stable Hover Test — Hexacopter UAS
-=====================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Performs a controlled autonomous hover test sequence:
-      1. Pre-flight checks
-      2. Arm in GUIDED mode
-      3. Takeoff to target altitude
-      4. Hold hover for specified duration
-      5. Return to Launch (RTL)
-
-    This replicates and documents the hover validation achieved
-    during the CDAC Noida internship (manual hover → autonomous hover).
-
-Usage:
-    # SITL (simulation — recommended for testing)
-    python hover_test.py --connect tcp:127.0.0.1:5760
-
-    # Real vehicle (use with extreme caution, outdoor only)
-    python hover_test.py --connect /dev/ttyUSB0 --baud 57600 --altitude 3
-
-WARNING:
-    - Perform SITL simulation before flying real hardware.
-    - Ensure GPS lock (≥6 sats, HDOP ≤ 2.0) before real flight.
-    - Keep RC transmitter in hand for manual override at all times.
-    - Fly in open outdoor area, away from people and obstacles.
-
-Dependencies:
-    pip install dronekit dronekit-sitl
-"""
 
 import time
 import argparse
