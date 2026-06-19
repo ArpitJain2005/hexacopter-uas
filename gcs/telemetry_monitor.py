@@ -1,27 +1,4 @@
-"""
-Real-Time Telemetry Monitor — Hexacopter UAS
-=============================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Connects to the flight controller over MAVLink (via telemetry
-    radio or USB) and displays a live GCS-style terminal dashboard
-    showing all critical flight parameters in real time.
-
-    Replicates the GCS monitoring performed in Mission Planner
-    during the CDAC Noida internship flight tests.
-
-Usage:
-    python telemetry_monitor.py --connect /dev/ttyUSB0 --baud 57600
-    python telemetry_monitor.py --connect tcp:127.0.0.1:5760  # SITL
-
-    Optional flags:
-      --log           Save telemetry to CSV file
-      --interval 0.5  Update interval in seconds (default: 1.0)
-
-Dependencies:
-    pip install dronekit
-"""
 
 import time
 import argparse
