@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""
-calibrate_imu.py
-----------------
-Guides the user through ArduCopter IMU (accelerometer) calibration
-by sending MAVLink PREFLIGHT_CALIBRATION commands via DroneKit.
-
-The standard ArduCopter 6-position accel calibration is triggered here.
-The user is prompted to orient the drone in each required position.
-
-Usage:
-    python calibrate_imu.py --connect /dev/ttyUSB0
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
-
 import argparse
 import time
 import sys
