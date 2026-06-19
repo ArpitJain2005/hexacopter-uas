@@ -1,20 +1,4 @@
-"""
-GPS Health Monitor — Hexacopter UAS
-=====================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Monitors GPS fix quality, satellite count, HDOP, and position
-    accuracy before flight. ArduCopter requires GPS lock (fix_type ≥ 3)
-    with ≥ 6 satellites and HDOP ≤ 2.0 for safe flight operations.
-
-Usage:
-    python gps_health_check.py --connect /dev/ttyUSB0 --baud 57600
-    python gps_health_check.py --connect tcp:127.0.0.1:5760  # SITL
-
-Dependencies:
-    pip install dronekit
-"""
 
 import time
 import argparse
