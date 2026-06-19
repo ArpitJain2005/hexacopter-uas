@@ -1,27 +1,4 @@
-"""
-Flight Log Parser & Visualizer — Hexacopter UAS
-=================================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Parses ArduCopter telemetry logs (.tlog / MAVLink binary) or
-    the CSV files produced by telemetry_monitor.py and generates
-    plots for post-flight analysis:
-      - Altitude profile
-      - Attitude (roll, pitch, yaw) over time
-      - GPS ground track
-      - Battery voltage profile
-
-Usage:
-    # Parse a CSV log from telemetry_monitor.py
-    python flight_log_parser.py --file telemetry_20250715_103000.csv
-
-    # Parse a MAVLink .tlog file
-    python flight_log_parser.py --file flight_2025-07-15.tlog --tlog
-
-Dependencies:
-    pip install matplotlib pymavlink pandas
-"""
 
 import argparse
 import os
