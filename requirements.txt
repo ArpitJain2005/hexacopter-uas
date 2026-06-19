@@ -1,0 +1,6 @@
+# Python dependencies for hexacopter-uas scripts
+dronekit>=2.9.2
+dronekit-sitl>=3.3.0
+pymavlink>=2.4.37
+pyserial>=3.5
+matplotlib>=3.5.0
