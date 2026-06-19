@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-rtl_test.py
------------
-Tests Return-to-Launch (RTL) functionality.
-Arm, take off, fly to a small offset, then trigger RTL
-and confirm the drone returns and lands at home.
-
-Usage:
-    python rtl_test.py --connect tcp:127.0.0.1:5760
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
-
 import argparse
 import time
 import sys
