@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-calibrate_compass.py
---------------------
-Initiates compass (magnetometer) calibration on ArduCopter via MAVLink.
-The user rotates the drone through all axes during calibration.
-
-Usage:
-    python calibrate_compass.py --connect /dev/ttyUSB0
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
 
 import argparse
 import time
