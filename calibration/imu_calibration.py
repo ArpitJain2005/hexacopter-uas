@@ -1,21 +1,4 @@
-"""
-IMU Preflight Check & Calibration Monitor — Hexacopter UAS
-===========================================================
-CDAC Noida Internship | Arpit Jain
 
-Purpose:
-    Reads live IMU data (accelerometer, gyroscope, attitude) from
-    the flight controller over MAVLink and verifies sensor health
-    before flight. Also guides through the accelerometer calibration
-    positions required by ArduCopter.
-
-Usage:
-    python imu_calibration.py --connect /dev/ttyUSB0 --baud 57600
-    python imu_calibration.py --connect tcp:127.0.0.1:5760  # SITL
-
-Dependencies:
-    pip install dronekit pymavlink
-"""
 
 import time
 import argparse
