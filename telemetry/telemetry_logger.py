@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-telemetry_logger.py
--------------------
-Logs real-time MAVLink telemetry from the hexacopter to a CSV file.
-Captures: timestamp, altitude, roll, pitch, yaw, airspeed, groundspeed,
-          battery voltage/current, GPS lat/lon, satellites, mode.
-
-Usage:
-    python telemetry_logger.py --connect /dev/ttyUSB0 --output flight_log.csv
-    python telemetry_logger.py --connect tcp:127.0.0.1:5760
-
-Author: Arpit | CDAC Noida UAS Internship 2025
-"""
 
 import argparse
 import csv
